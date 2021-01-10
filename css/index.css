@@ -1,0 +1,76 @@
+.introimg {
+    width: 400px;
+    transform: translateX(5%);
+}
+
+.myimg {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px 6px black;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.department {
+    width: 800px;
+}
+
+.basketball {
+    width: 600px;
+    height: 380px;
+}
+
+.piano {
+    width: 600px;
+}
+
+.guitar {
+    height: 600px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.backgr {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.introword {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.aboutme {
+    margin-left: 100px;
+}
+
+.context {
+    font-size: larger;
+}
+
+.game1 {
+    height: 500px;
+}
+
+.game2 {
+    height: 530px;
+}
+
+.game3 {
+    height: 670px;
+}
+
+.game4 {
+    height: 510px;
+}
+
+.game5 {
+    height: 500px;
+}
+
+.game6 {
+    height: 500px;
+}

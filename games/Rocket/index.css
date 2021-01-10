@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+#stage {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    background: url(galaxy.jpg);
+    /* background: black; */
+    top: 50px;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.sprite {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.player {
+    background: url(player.png);
+    /* background: red; */
+}
+
+.enemy {
+    background: url(enemy.png);
+    /* background: yellow; */
+}
+
+.score {
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    z-index: 99;
+}
