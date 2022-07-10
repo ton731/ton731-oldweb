@@ -1,76 +1,142 @@
-.introimg {
-    width: 400px;
-    transform: translateX(5%);
+body {
+    color: #40514E;
+    margin: 0;
+    font-family: 'Merriweather', serif;
 }
 
-.myimg {
-    width: 300px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 12px 6px black;
+
+
+
+
+
+
+
+/* Headings */
+.section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
 }
 
-.title {
-    font-size: 50px;
+.container-fluid {
+    padding: 7% 7% 3% 7%;
 }
 
-.department {
-    width: 800px;
+.two-column {
+    align-items: center;
+    text-align: center;
 }
 
-.basketball {
-    width: 600px;
-    height: 380px;
-}
 
-.piano {
-    width: 600px;
-}
 
-.guitar {
-    height: 600px;
-}
-
-.name {
-    font-size: 50px;
-}
-
-.backgr {
+/* Navbar Section */
+.nav-background {
     background-color: rgba(0, 0, 0, 0.61);
 }
 
-.introword {
-    font-size: x-large;
-    font-weight: bold;
+.nav-email {
+    color: #fff;
 }
 
-.aboutme {
-    margin-left: 100px;
+
+
+
+/* Title Section */
+.title-name {
+    font-size: 25px;
+    text-align: left;
 }
 
-.context {
-    font-size: larger;
+.last-name {
+    padding-bottom: 0;
 }
 
-.game1 {
-    height: 500px;
+.first-name {
+    padding-top: 0;
 }
 
-.game2 {
-    height: 530px;
+
+
+/* Sidebar Section */
+.outline {
+    color: #fff;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
-.game3 {
-    height: 670px;
+
+
+/* About Me Section */
+.about-me-photo {
+    width: 50%;
 }
 
-.game4 {
-    height: 510px;
+.about-me-content {
+    text-align: left;
 }
 
-.game5 {
-    height: 500px;
+
+
+
+/* Skills Section */
+.skill-row {
+    width: 70%;
+    margin: 7% auto 15% auto;
+    text-align: left;
 }
 
-.game6 {
-    height: 500px;
+.skill-left-img {
+    width: 35%;
+    float: left;
+    margin-right: 10%;
+}
+
+.skill-right-img {
+    width: 35%;
+    float: right;
+    margin-left: 10%;
+}
+
+#skills h3 {
+    margin: 3% auto 3% auto;
+}
+
+
+
+
+
+
+/* Experience Section */
+.exp-row {
+    margin: 5% auto 5% auto;
+    text-align: left;
+    /* line-height: 1.0; */
+}
+
+.exp-title {
+    margin: 3% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* WebGames Page */
+
+.game-row {
+    width: 60%;
+    margin: 10% auto 10% auto;
+    margin-bottom: 100px;
+}
+
+.game-title {
+    margin: 5% auto;
+}
+
+.game-text {
+    text-transform: none;
 }
